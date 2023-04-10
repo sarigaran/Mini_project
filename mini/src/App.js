@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes,Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Navbar from './component/Navbar';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
@@ -10,7 +10,7 @@ import Notfound from './pages/Notfound';
 import Appbar from './component/Appbar';
 function App() {
   return (
-    <div className="App">
+    <div className="App bgimg">
       <Appbar></Appbar>
       <BrowserRouter>
       <Navbar/>

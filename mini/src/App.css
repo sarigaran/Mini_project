@@ -1,29 +1,51 @@
 *{
   padding: 0%;
   margin: 0%;
+  }
 
+.bgimg {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/open-book-illustration-reflection-black-background-red-3440x1440-5478.jpg");
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+object-fit: cover;
 }
 .App {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-.logo{
+.log{
   height: 100px;
   width: 100px;
-  margin-left: 4%;
+margin-left: 4%;
+  float: left;
 }
 .bar{
   display: flex;
-  flex-direction: row;
-  background-color:#0E0807;
+ 
+}
+h3{
+  color: azure;}
+#name{
+  color: white;
+text-align: center;
+margin-left: 35%;
+margin-top: 30px;
+  
 }
 .b{
-  margin: 20px 10px;
-  height: 40px;
-  margin-left: 75%; 
+  margin-left: 25%;
 }
-.bt{
-  margin: 20px 10px;
-  height: 40px;
-   
+.button{
+  margin-top: 30px;
+  background-color: rgb(17, 233, 17);
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  float: right;
+}
+p{
+  color: beige;
 }
